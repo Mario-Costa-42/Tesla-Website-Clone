@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -7,9 +8,10 @@ function App() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         {/* Brand */}
-        <a className="navbar-brand" href="#">
-          MyApp
+        <a className="navbar-brand" href="javascript:void(0)">
+          Tesla
         </a>
+
 
         {/* Toggle Button for Mobile View */}
         <button
@@ -38,6 +40,9 @@ function App() {
             </a>
             <a className="nav-link" href="#">
               Contact
+            </a>
+            <a className="nav-link" href="#">
+              veiculs
             </a>
           </div>
         </div>

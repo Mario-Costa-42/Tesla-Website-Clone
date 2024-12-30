@@ -1,4 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .navbar.navbar-expand-lg.navbar-light.bg-light {
-  background-color: blue;
-  margin: 100px;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  padding-right: 100%;
 }
