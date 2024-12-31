@@ -2,9 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
 .navbar.navbar-expand-lg.navbar-light.bg-light {
   position: absolute;
   top: 0px;
   text-align: center;
   padding-right: 100%;
+}
+
+.nav-link{
+  display: flex;
+  align-items: center;
 }

@@ -30,19 +30,22 @@ function App() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <a className="nav-link active" aria-current="page" href="#">
-              Home
+              Vehicles
             </a>
             <a className="nav-link" href="#">
-              About
+              Energy
             </a>
             <a className="nav-link" href="#">
-              Services
+              Charging
             </a>
             <a className="nav-link" href="#">
-              Contact
+              Discover
             </a>
             <a className="nav-link" href="#">
-              veiculs
+              Shop
+            </a>
+            <a className="nav-link" href="#">
+              We, Robot
             </a>
           </div>
         </div>
