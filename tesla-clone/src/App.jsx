@@ -9,7 +9,7 @@ function App() {
       <div className="container-fluid">
         {/* Brand */}
         <a className="navbar-brand" href="javascript:void(0)">
-          Tesla
+          <img src='/src/assets/logo-tesla.png' id='tesla-logo'/>
         </a>
 
 
