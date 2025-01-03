@@ -4,6 +4,7 @@ import './SectionsImages.css';
 function Sections(){
     return(
         <>
+        <div id="sectionParent">
         <div id="Telsa-Home">
            {/* <img src="/src/assets/twoModels.jpg" id="twoModel" className="background-photo"></img>  */}
             <h2 className="SubTitle">$299/mo Leasing</h2>
@@ -31,14 +32,18 @@ function Sections(){
         <div id="Solar-Panels">
             {/* <img src="/src/assets/SolarPanels_90.jpg" id="Panels" className="background-photo"></img> */}
         </div>
-        <div id="Solar-Roof">
-            {/* <img src="/src/assets/SolarRoof_89.jpg" id="Roof" className="background-photo"></img> */}
-        </div> 
         <div id="Powerwall">
             {/* <img src="/src/assets/0x0-PowerwallPlus_01.jpg" id="Power" className="background-photo"></img> */}
         </div> 
         <div id="Acessories">
             {/* <img src="/src/assets/acessories.jpg" id="Acesso" className="background-photo"></img> */}
+        </div>
+        <div id="Footer">
+            <h4>Tesla - 2025</h4>
+            <p>This site was made by Mario Costa
+                {/* Set up link to the GitHub Account */}
+            </p>
+        </div>
         </div>    
         </>
     );
