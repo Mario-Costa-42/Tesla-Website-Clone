@@ -6,6 +6,11 @@ function Sections(){
         <>
         <div className="Telsa-Home">
             <img src="/src/assets/twoModels.jpg" id="twoModel" className="background-photo"></img>
+            <h2 className="SubTitle">$299/mo Leasing</h2>
+            <div class="button-container">
+                <a class="styled-button">Order Model 3</a>
+                <a class="styled-button">Order Model Y</a>
+            </div>
         </div>
         <div className="car-model-y">
             <img src="/src/assets/ModelY_58.jpg" id="ModelY" className="background-photo"></img>
@@ -39,5 +44,3 @@ function Sections(){
 }
 
 export default Sections;
-
-/////////////////////////////////////////////////////////////////////

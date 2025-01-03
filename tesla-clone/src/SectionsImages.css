@@ -1,3 +1,45 @@
 .background-photo{
     width: 100%;
 }
+
+.Tesla-home{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.SubTitle{
+    position: absolute; 
+    top: 15%;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+    font-size: 40px;
+}
+
+.button-container {
+    text-align: center; /* Centers buttons horizontally */
+    margin: 20px; /* Adds space around the container */
+}
+
+/* Button styling */
+.styled-button {
+    display: inline-block;
+    background-color: white; /* Button background color */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Makes text bold */
+    padding: 10px 20px; /* Button padding */
+    border: 1px solid #ccc; /* Adds a light border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Removes underline for links */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect  */
+.styled-button:hover {
+    background-color: #f0f0f0; /* Slightly darker background on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increases shadow */
+}

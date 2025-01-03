@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  /* background-color: aqua; */
 }
 
 nav{
@@ -14,6 +13,7 @@ nav{
 
 .navbar.navbar-expand-lg.navbar-light.bg-light {
   position: absolute;
+  position: fixed;
   top: 0px;
   margin-top: 0px;
   padding-top: 0px;
@@ -22,8 +22,3 @@ nav{
   display: flex;
   align-items: flex-start;
 }
-
-/* .nav-link{
-  display: flex;
-  align-items: center;
-} */
