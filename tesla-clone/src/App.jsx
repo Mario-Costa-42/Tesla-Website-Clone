@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light " style={{ backgroundColor: "transparent" }}>
       <div className="container-fluid">
         {/* Brand */}
         <a className="navbar-brand" href="javascript:void(0)">

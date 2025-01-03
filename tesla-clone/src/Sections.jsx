@@ -1,5 +1,6 @@
 import React from "react";
 import './SectionsImages.css';
+import './Buttons.css';
 
 function Sections(){
     return(
