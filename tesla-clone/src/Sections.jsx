@@ -42,21 +42,43 @@ function Sections(){
             </div>
         </div>
         <div id="car-model-s">
-            {/* <img src="/src/assets/ModelS_70.jpg" id="ModelS" className="background-photo"></img> */}
+        <h1>Model S</h1>
+            <h2>Free Supercharging Included</h2>
+            <p>From $73,490 <u>After Est.Gas Savings $6,500</u></p> {/* fix these containers later */}
+            <div className="button-container">
+                <a className="styled-button">Order Now</a>
+                <a className="styled-button">Learn More</a>
+            </div> 
         </div>
         <div id="car-model-cbertruck">
-            <h2>This is the Cbertruck</h2>
-            {/* <img src="/src/assets/Cybertruck_66.jpg" id="Cybertruck" className="background-photo"></img> */}
+            <h1>This is the Cbertruck</h1>
+            <div className="button-container">
+                <a className="styled-button">Order Now</a>
+                <a className="styled-button">Learn More</a>
+            </div> 
         </div>
         <div id="Solar-Panels">
-            {/* <img src="/src/assets/SolarPanels_90.jpg" id="Panels" className="background-photo"></img> */}
+            <h1>Solar Panels</h1>
+            <h3><u>Schedule a Virtual Consultation</u></h3>
+            <div className="button-container">
+                <a className="styled-button">Order Now</a>
+                <a className="styled-button">Learn More</a>
+            </div>
         </div>
         <div id="Powerwall">
-            {/* <img src="/src/assets/0x0-PowerwallPlus_01.jpg" id="Power" className="background-photo"></img> */}
+            <h1>Powerwall</h1>
+            <div className="button-container">
+                <a className="styled-button">Order Now</a>
+                <a className="styled-button">Learn More</a>
+            </div>
         </div> 
         <div id="Acessories">
-            {/* <img src="/src/assets/acessories.jpg" id="Acesso" className="background-photo"></img> */}
+           <h1>Acessories</h1>
+           <div className="button-container">
+                <a className="styled-button">Order Now</a>
+            </div>
         </div>
+        {/* add the video WE ARE TESLA here */}
         <div id="Footer">
             <h4>Tesla - 2025</h4>
             <p>This site was made by Mario Costa
