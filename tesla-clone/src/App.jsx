@@ -5,7 +5,13 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light " style={{ backgroundColor: "transparent" }}>
+    <nav className="navbar navbar-expand-lg navbar-light " style={{
+      backgroundColor: "white",
+      position: "fixed",
+      top: "0",
+      width: "100%",
+      zIndex: 1000, // Ensures it stays above other content
+    }}>
       <div className="container-fluid">
         {/* Brand */}
         <a className="navbar-brand" href="javascript:void(0)">
