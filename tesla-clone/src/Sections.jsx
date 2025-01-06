@@ -7,7 +7,7 @@ function Sections(){
         <>
         <div id="sectionParent">
         <div id="Telsa-Home">
-            <h2 className="SubTitle">$299/mo Leasing</h2>
+            <h1 className="SubTitle">$299/mo Leasing</h1>
             <div className="button-container">
                 <a className="styled-button">Order Model 3</a>
                 <a className="styled-button">Order Model Y</a>
