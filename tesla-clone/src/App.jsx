@@ -35,7 +35,7 @@ function App() {
         {/* Collapsible Section */}
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#">
+            <a className="nav-link" aria-current="page" href="#">
               Vehicles
             </a>
             <a className="nav-link" href="#">
