@@ -17,7 +17,6 @@ function Sections(){
         <div id="car-model-y">
             <h1>Model Y</h1>
             <h2>$299/mo Leasing</h2>
-            <p>From $31,490</p> {/* fix these containers later */}
             <div className="button-container">
                 <a className="styled-button">Order Now</a>
                 <a className="styled-button">Learn More</a>
@@ -26,7 +25,6 @@ function Sections(){
         <div id="car-model-3">
         <h1>Model 3</h1>
             <h2>$299/mo Leasing</h2>
-            <p>From $29,990</p> {/* fix these containers later */}
             <div className="button-container">
                 <a className="styled-button">Order Now</a>
                 <a className="styled-button">Learn More</a>
@@ -35,8 +33,6 @@ function Sections(){
         <div id="car-model-x">
         <h1>Model X</h1>
             <h2>From $65,990</h2>
-            <p>After Federal Tax Credit $7,500</p> {/* fix these containers later */}
-            <p>and Est.Gas Savings 6,500</p>
             <div className="button-container">
                 <a className="styled-button">Order Now</a>
                 <a className="styled-button">Learn More</a>
@@ -45,7 +41,6 @@ function Sections(){
         <div id="car-model-s">
         <h1>Model S</h1>
             <h2>Free Supercharging Included</h2>
-            <p>From $73,490 <u>After Est.Gas Savings $6,500</u></p> {/* fix these containers later */}
             <div className="button-container">
                 <a className="styled-button">Order Now</a>
                 <a className="styled-button">Learn More</a>
@@ -82,6 +77,8 @@ function Sections(){
         {/* add the video WE ARE TESLA here */}
         <div id="video-showcase">
             <video src="/src/assets/we-are-tesla.webm" autoPlay muted loop id="tesla-video"></video>
+            <h2>We Are Tesla</h2>
+            {/* add the button join tesla here */}
         </div>
         <div id="Footer">
             <h4>Tesla - 2025</h4>

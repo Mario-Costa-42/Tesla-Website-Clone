@@ -5,6 +5,10 @@ create the css for the PC version */
     height: fit-content;
 }
 
+h1, h2, h3, p{
+    /* color: white; */
+}
+
 #Telsa-Home{
     background-image: url('./assets/twoModels.jpg');
     /* width: 100vw;
@@ -15,16 +19,6 @@ create the css for the PC version */
     background-size: cover;
     text-align: center;
 }
-
-/* .SubTitle{
-    position: absolute; 
-    display: inline-block;
-    top: 15%;
-    left: 50%;
-    color: white;
-    transform: translateX(-50%);
-    font-size: 40px;
-} */
 
 #car-model-y{
     background-image: url('./assets/ModelY_58.jpg');
@@ -123,6 +117,7 @@ create the css for the PC version */
 
 #video-showcase{
     width: 100%;
+    text-align: center;
 }
 
 #tesla-video{
