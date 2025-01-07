@@ -121,6 +121,14 @@ create the css for the PC version */
     background-position: center;
 }
 
+#video-showcase{
+    width: 100%;
+}
+
+#tesla-video{
+    width: 100%;
+}
+
 #Footer{
     margin-top: 60px;
     width: 100%;

@@ -1,6 +1,7 @@
 import React from "react";
 import './SectionsImages.css';
 import './Buttons.css';
+import './assets/twoModels.jpg';
 
 function Sections(){
     return(
@@ -79,6 +80,9 @@ function Sections(){
             </div>
         </div>
         {/* add the video WE ARE TESLA here */}
+        <div id="video-showcase">
+            <video src="/src/assets/we-are-tesla.webm" autoPlay muted loop id="tesla-video"></video>
+        </div>
         <div id="Footer">
             <h4>Tesla - 2025</h4>
             <p>This site was made by Mario Costa
