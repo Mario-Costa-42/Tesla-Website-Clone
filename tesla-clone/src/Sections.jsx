@@ -77,8 +77,10 @@ function Sections(){
         {/* add the video WE ARE TESLA here */}
         <div id="video-showcase">
             <video src="/src/assets/we-are-tesla.webm" autoPlay muted loop id="tesla-video"></video>
-            <h2>We Are Tesla</h2>
-            {/* add the button join tesla here */}
+            <div id="sub-video-div-container">
+                <h2 id="weAreTesla">We Are Tesla</h2>
+                <button>Join Tesla</button>
+            </div>
         </div>
         <div id="Footer">
             <h4>Tesla - 2025</h4>

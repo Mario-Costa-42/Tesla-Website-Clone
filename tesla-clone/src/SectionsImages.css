@@ -6,7 +6,7 @@ create the css for the PC version */
 }
 
 h1, h2, h3, p{
-    /* color: white; */
+    color: white;
 }
 
 #Telsa-Home{
@@ -102,10 +102,10 @@ h1, h2, h3, p{
 
 #Acessories{
     background-image: url('./assets/acessories.jpg');
-    width: 100vw;
-    height: 250px;
-    /* width: 100%;
-    height: 50vh; */
+    /* width: 100vw;
+    height: 250px; */
+    width: 100%;
+    height: 50vh;
     /* margin: 0;
     padding: 0; */
     background-size: cover;
@@ -116,12 +116,17 @@ h1, h2, h3, p{
 }
 
 #video-showcase{
-    width: 100%;
+    width: 100%;        
     text-align: center;
 }
 
 #tesla-video{
     width: 100%;
+}
+
+#weAreTesla{
+    color: royalblue;
+    
 }
 
 #Footer{
