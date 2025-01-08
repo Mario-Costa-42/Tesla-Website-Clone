@@ -79,12 +79,12 @@ function Sections(){
             <video src="/src/assets/we-are-tesla.webm" autoPlay muted loop id="tesla-video"></video>
             <div id="sub-video-div-container">
                 <h2 id="weAreTesla">We Are Tesla</h2>
-                <button>Join Tesla</button>
+                <button id="joinTesla">Join Tesla</button>
             </div>
         </div>
         <div id="Footer">
             <h4>Tesla - 2025</h4>
-            <p>This site was made by Mario Costa
+            <p>This site was made by <a href="https://github.com/Mario-Costa-42" id="nameLink"><u>Mario Costa</u></a> 
                 {/* Set up link to the GitHub Account */}
             </p>
         </div>
