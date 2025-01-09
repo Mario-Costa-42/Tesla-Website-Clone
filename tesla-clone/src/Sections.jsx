@@ -47,7 +47,7 @@ function Sections(){
             </div> 
         </div>
         <div id="car-model-cbertruck">
-            <h1>This is the Cbertruck</h1>
+            <h1>This is the Cybertruck</h1>
             <div className="button-container">
                 <a className="styled-button">Order Now</a>
                 <a className="styled-button">Learn More</a>
@@ -69,7 +69,7 @@ function Sections(){
             </div>
         </div> 
         <div id="Acessories">
-           <h1>Acessories</h1>
+           <h1>Accessories</h1>
            <div className="button-container">
                 <a className="styled-button">Order Now</a>
             </div>
