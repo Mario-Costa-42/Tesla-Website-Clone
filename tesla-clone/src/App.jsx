@@ -38,28 +38,28 @@ function App() {
             <a className="nav-link" aria-current="page" href="#">
               Home
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#car-model-y">
               Model Y
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#car-model-3">
               Model 3
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#car-model-x">
               Model X
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#car-model-s">
               Model S 
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#car-model-cbertruck">
               Cybertruck
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#Solar-Panels">
               Solar Panels
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#Powerwall">
               Powerwall
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#Acessories">
               Accessories 
             </a>
           </div>
