@@ -2,5 +2,12 @@
     h1{
         background-color: black;
     }
-
+    #sectionParent{
+        width: 1000px;
+    }
+    .background-images{
+        width: 800px;
+        height: 100vh;
+        margin:auto;
+    }
 }

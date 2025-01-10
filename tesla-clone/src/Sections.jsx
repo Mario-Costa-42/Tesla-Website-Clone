@@ -8,14 +8,14 @@ function Sections(){
     return(
         <>
         <div id="sectionParent">
-        <div id="Telsa-Home">
+        <div id="Telsa-Home" className="background-images">
             <h1 className="SubTitle">$299/mo Leasing</h1>
             <div className="button-container">
                 <a className="styled-button">Order Model 3</a>
                 <a className="styled-button">Order Model Y</a>
             </div>
         </div>
-        <div id="car-model-y">
+        <div id="car-model-y" className="background-images">
             <h1>Model Y</h1>
             <h2>$299/mo Leasing</h2>
             <div className="button-container">
@@ -23,7 +23,7 @@ function Sections(){
                 <a className="styled-button">Learn More</a>
             </div>
         </div>
-        <div id="car-model-3">
+        <div id="car-model-3" className="background-images">
         <h1>Model 3</h1>
             <h2>$299/mo Leasing</h2>
             <div className="button-container">
@@ -31,7 +31,7 @@ function Sections(){
                 <a className="styled-button">Learn More</a>
             </div>
         </div>
-        <div id="car-model-x">
+        <div id="car-model-x" className="background-images">
         <h1>Model X</h1>
             <h2>From $65,990</h2>
             <div className="button-container">
@@ -39,7 +39,7 @@ function Sections(){
                 <a className="styled-button">Learn More</a>
             </div>
         </div>
-        <div id="car-model-s">
+        <div id="car-model-s" className="background-images">
         <h1>Model S</h1>
             <h2>Free Supercharging Included</h2>
             <div className="button-container">
@@ -47,14 +47,14 @@ function Sections(){
                 <a className="styled-button">Learn More</a>
             </div> 
         </div>
-        <div id="car-model-cbertruck">
+        <div id="car-model-cbertruck" className="background-images">
             <h1>This is the Cybertruck</h1>
             <div className="button-container">
                 <a className="styled-button">Order Now</a>
                 <a className="styled-button">Learn More</a>
             </div> 
         </div>
-        <div id="Solar-Panels">
+        <div id="Solar-Panels" className="background-images">
             <h1>Solar Panels</h1>
             <h3><u>Schedule a Virtual Consultation</u></h3>
             <div className="button-container">
@@ -62,20 +62,19 @@ function Sections(){
                 <a className="styled-button">Learn More</a>
             </div>
         </div>
-        <div id="Powerwall">
+        <div id="Powerwall" className="background-images">
             <h1>Powerwall</h1>
             <div className="button-container">
                 <a className="styled-button">Order Now</a>
                 <a className="styled-button">Learn More</a>
             </div>
         </div> 
-        <div id="Acessories">
+        <div id="Acessories" className="background-images">
            <h1>Accessories</h1>
            <div className="button-container">
                 <a className="styled-button">Order Now</a>
             </div>
         </div>
-        {/* add the video WE ARE TESLA here */}
         <div id="video-showcase">
             <video src="/src/assets/we-are-tesla.webm" autoPlay muted loop id="tesla-video"></video>
             <div id="sub-video-div-container">
