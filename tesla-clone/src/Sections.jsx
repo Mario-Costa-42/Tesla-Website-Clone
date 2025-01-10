@@ -1,6 +1,7 @@
 import React from "react";
 import './SectionsImages.css';
 import './Buttons.css';
+import './Responsive.css';
 import './assets/twoModels.jpg';
 
 function Sections(){
@@ -85,7 +86,6 @@ function Sections(){
         <div id="Footer">
             <h4>Tesla - 2025</h4>
             <p>This site was made by <a href="https://github.com/Mario-Costa-42" id="nameLink"><u>Mario Costa</u></a> 
-                {/* Set up link to the GitHub Account */}
             </p>
         </div>
         </div>    
