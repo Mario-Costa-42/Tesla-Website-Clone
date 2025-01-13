@@ -1,8 +1,7 @@
 import React from "react";
 import './SectionsImages.css';
 import './Buttons.css';
-import './Responsive.css';
-import './assets/twoModels.jpg';
+// import './assets/twoModels.jpg';
 
 function Sections(){
     return(

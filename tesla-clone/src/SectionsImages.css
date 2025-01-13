@@ -1,5 +1,3 @@
-/* I'm setting up for moblibe first in this file later on I will
-create the css for the PC version */
 #sectionParent{
     width: fit-content;
     height: fit-content;
@@ -12,8 +10,8 @@ h1, h2, h3, p{
 
 #Telsa-Home{
     background-image: url('./assets/twoModels.jpg');
-    width: 100%;
-    height: 50vh;
+    width: 100vw;
+    height: 90vh;
     margin:auto;
     background-size: cover;
     background-position: center;
@@ -26,32 +24,35 @@ h1, h2, h3, p{
 
 #car-model-y{
     background-image: url('./assets/ModelY_58.jpg');
-    width: 100%;
-    height: 50vh;
+    width: 100vw;
+    height: 90vh;
     background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
 #car-model-3{
     background-image: url('./assets/Model3-66.jpg');
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
 #car-model-x{
     background-image: url('./assets/ModelX_62.jpg');
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
 #car-model-s{
     background-image: url('./assets/ModelS_70.jpg');
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -60,31 +61,34 @@ h1, h2, h3, p{
 #car-model-cbertruck{
     background-image: url('./assets/Cybertruck_66.jpg');
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
 #Solar-Panels{
     background-image: url('./assets/SolarPanels_90.jpg');
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
 #Powerwall{
     background-image: url('./assets/0x0-PowerwallPlus_01.jpg');
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
 #Acessories{
     background-image: url('./assets/acessories.jpg');
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     background-size: cover;
     text-align: center; 
     background-repeat: no-repeat;
@@ -93,7 +97,7 @@ h1, h2, h3, p{
 
 #video-showcase{
     width: 100%;  
-    height: 250px;      
+    height: 70vh;      
     text-align: center;
     position: relative;
     overflow: hidden;
