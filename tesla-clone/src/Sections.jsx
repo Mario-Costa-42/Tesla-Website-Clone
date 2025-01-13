@@ -9,6 +9,7 @@ function Sections(){
         <>
         <div id="sectionParent">
         <div id="Telsa-Home" className="background-images">
+        {/* <img src="src/assets/twoModels.jpg" alt="Tesla Home" id="background-image"></img> */}
             <h1 className="SubTitle">$299/mo Leasing</h1>
             <div className="button-container">
                 <a className="styled-button">Order Model 3</a>
