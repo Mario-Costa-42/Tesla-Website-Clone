@@ -1,6 +1,6 @@
 {
   "name": "tesla-clone",
-  "homepage": "https://Mario-Costa-42.github.io/Tesla-Website-Clone/tesla-clone",
+  "homepage": "https://Mario-Costa-42.github.io/Tesla-Website-Clone/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -b main -d build"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
