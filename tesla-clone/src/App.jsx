@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Sections from './Sections.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import teslaLogo from './assets/logo-tesla.png';
@@ -7,6 +8,7 @@ import teslaLogo from './assets/logo-tesla.png';
 
 function App() {
   return (
+    <>
     <nav className="navbar navbar-expand-lg navbar-light " style={{
       backgroundColor: "white",
       position: "fixed",
@@ -68,6 +70,8 @@ function App() {
         </div>
       </div>
     </nav>
+    <Sections />  
+    </>
   );
 }
 
