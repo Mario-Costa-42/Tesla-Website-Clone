@@ -1,14 +1,13 @@
 import React from "react";
 import './SectionsImages.css';
 import './Buttons.css';
-// import './assets/twoModels.jpg';
+import videoSrc from './assets/we-are-tesla.webm';
 
 function Sections(){
     return(
         <>
         <div id="sectionParent">
         <div id="Telsa-Home" className="background-images">
-        {/* <img src="src/assets/twoModels.jpg" alt="Tesla Home" id="background-image"></img> */}
             <h1 className="SubTitle">$299/mo Leasing</h1>
             <div className="button-container">
                 <a className="styled-button">Order Model 3</a>
@@ -76,9 +75,10 @@ function Sections(){
             </div>
         </div>
         <div id="video-showcase">
-            <video src="/src/assets/we-are-tesla.webm" autoPlay muted loop id="tesla-video"></video>
+            {/* <video src="Tesla-Website-Clone/tesla-clone/src/assets/we-are-tesla.webm" autoPlay muted loop id="tesla-video"></video> */}
+            <video src={videoSrc} autoPlay muted loop id="tesla-video"></video>
             <div id="sub-video-div-container">
-                <h2 id="weAreTesla">We Are Tesla</h2>
+                <h2 id="weAreTesla"> We Are Tesla</h2>
                 <button id="joinTesla">Join Tesla</button>
             </div>
         </div>

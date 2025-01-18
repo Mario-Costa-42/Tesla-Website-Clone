@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import teslaLogo from './assets/logo-tesla.png';
+
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
       <div className="container-fluid">
         {/* Brand */}
         <a className="navbar-brand" href="javascript:void(0)">
-          <img src='/src/assets/logo-tesla.png' id='tesla-logo'/>
+          <img src={teslaLogo}  id='tesla-logo'/>
         </a>
 
 
